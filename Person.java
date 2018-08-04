@@ -1,6 +1,5 @@
 import java.time.LocalDate;
 
-//Class person that has basic personal details
 public class Person {
 	private String name;
 	private Date dob;
@@ -10,6 +9,7 @@ public class Person {
 		name = n;
 		dob = new Date(d,m,y); 
 	}
+	
 	//Method display to display details of a person
 	public void display()
 	{
